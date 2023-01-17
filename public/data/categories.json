@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "category_name": "Sports"
+    },
+    {
+        "id": 2,
+        "category_name": "Travel"
+    },
+    {
+        "id": 3,
+        "category_name": "Health"
+    },
+    {
+        "id": 4,
+        "category_name": "Fashion"
+    },
+    {
+        "id": 5,
+        "category_name": "Food"
+    },
+    {
+        "id": 6,
+        "category_name": "Technology"
+    }
+]

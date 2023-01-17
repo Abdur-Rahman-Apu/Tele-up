@@ -1,0 +1,326 @@
+[
+    {
+        "blog_id": 1,
+        "category_name": "Sports",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "Blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "Blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "Blogger",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    },
+    {
+        "blog_id": 2,
+        "category_name": "Travel",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "Blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    },
+    {
+        "blog_id": 3,
+        "category_name": "Health",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    },
+    {
+        "blog_id": 4,
+        "category_name": "Fashion",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    },
+    {
+        "blog_id": 5,
+        "category_name": "Food",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    },
+    {
+        "blog_id": 6,
+        "category_name": "Technology",
+        "blogs": [
+            {
+                "id": 1,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Alik",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "2.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "2/1/2023"
+                }
+            },
+            {
+                "id": 2,
+                "trending": 0,
+                "author_info": {
+                    "author_name": "Kalam",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "3.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "3/1/2023"
+                }
+            },
+            {
+                "id": 3,
+                "trending": 1,
+                "author_info": {
+                    "author_name": "Selim",
+                    "author_img": "",
+                    "designation": "blogger",
+                    "followers": "4.3k"
+                },
+                "blog_info": {
+                    "img": "",
+                    "title": "",
+                    "description": "",
+                    "published_date": "1/1/2023"
+                }
+            }
+        ]
+    }
+]
