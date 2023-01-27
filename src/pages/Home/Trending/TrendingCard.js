@@ -4,7 +4,7 @@ const TrendingCard = ({ data }) => {
     const { img, title } = data.blog_info
     return (
         <div className="card h-[440px] bg-base-100 shadow-xl mr-4">
-            <figure><img className='img-fluid w-full' src={img} alt="img" /></figure>
+            <img className='img-fluid w-full h-[200px]' src={img} alt="img" />
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>

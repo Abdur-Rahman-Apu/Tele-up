@@ -56,7 +56,7 @@ const Trending = () => {
                 autoPlay={true}
                 autoPlaySpeed={2000}
                 // keyBoardControl={true}
-                customTransition="all 1"
+                customTransition="all 1s ease-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
