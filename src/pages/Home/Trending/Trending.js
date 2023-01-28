@@ -45,7 +45,7 @@ const Trending = () => {
 
     return (
         <div className='mx-10 my-10'>
-            <h1 className='font-bold my-6 text-2xl'>Trending</h1>
+            <h1 className='font-bold my-6 text-3xl'>Trending</h1>
             <Carousel className='h-[550px]'
                 swipeable={true}
                 draggable={true}
