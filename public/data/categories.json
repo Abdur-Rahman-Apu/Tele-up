@@ -1,5 +1,9 @@
 [
     {
+        "id": 7,
+        "category_name": "View All"
+    },
+    {
         "id": 1,
         "category_name": "Sports"
     },
