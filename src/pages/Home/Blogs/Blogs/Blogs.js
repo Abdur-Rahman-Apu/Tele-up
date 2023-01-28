@@ -25,7 +25,7 @@ const Blogs = () => {
 
 
 
-
+    // fetch blog data 
     useEffect(() => {
         fetch('data/data.json')
             .then(res => res.json())
@@ -41,7 +41,7 @@ const Blogs = () => {
 
 
 
-    // handle Click 
+    // category wise data show , tab
     const handleNav = (e, category_name) => {
 
         fetch('data/data.json')
@@ -51,6 +51,8 @@ const Blogs = () => {
         console.log(allData);
 
         let items;
+
+        // condition to find category wise data 
         if (category_name === 'View All') {
             for (const data of allData) {
                 allBlogs = allBlogs.concat(data.blogs)
@@ -78,29 +80,36 @@ const Blogs = () => {
     } else {
         showBlogs = allBlogs
     }
-    console.log(allBlogs);
-    console.log("showBlogs", showBlogs);
+
 
 
     // load more btn 
 
+    // count card amount 
     const [count, setCount] = useState(6)
 
+
+    // make a copy of allblogs
     let copy = []
+
     copy = showBlogs;
 
-    const [show, setShow] = useState([])
+    let [show, setShow] = useState([])
 
+
+    // view all blogs
     if (copy.length > 6 && count <= 6) {
-
-
         showBlogs = copy.slice(0, count)
         console.log("inside copy", showBlogs);
         setShow(showBlogs)
         setCount(count + 6)
+    } else if (copy.length < 6) {
+        show = copy;
     }
 
 
+
+    //click to load more blogs
     const loadBtn = () => {
         console.log(count <= copy.length);
         if (count <= copy.length) {
@@ -111,7 +120,8 @@ const Blogs = () => {
             setShow(showBlogs)
         }
     }
-
+    console.log("show", show);
+    console.log("copy", copy);
 
     return (
         <div className='mx-4'>
