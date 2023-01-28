@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import BlogTab from '../BlogTab/BlogTab';
-import Blog from './Blog';
+
 
 const Blogs = () => {
 
@@ -77,14 +78,14 @@ const Blogs = () => {
     console.log(allBlogs);
 
     return (
-        <div className='mx-10'>
-            <div className='my-3'>
+        <div className='mx-4'>
+            <div className='mt-24 mb-4 flex justify-center'>
                 {
                     data.map(item => <BlogTab key={item.id} data={item} handleNav={handleNav}></BlogTab>)
                 }
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center'>
                 {
                     blogs.length > 0 ? blogs.map((item, idx) => <Blog key={idx} data={item}></Blog>)
                         : allBlogs?.map((item, idx) => <Blog key={idx} data={item}></Blog>)

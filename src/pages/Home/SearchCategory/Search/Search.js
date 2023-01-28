@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import SearchResult from '../SearchResult/SearchResult';
 
@@ -6,10 +6,22 @@ const Search = () => {
 
     const navigate = useNavigate()
 
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        fetch('data/data.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setData(data)
+            })
+
+    }, [])
+
     const handleSearch = (event) => {
         event.preventDefault()
         console.log(event.target.categories.value);
-        navigate(`/search/${event.target.categories.value}`, { replace: true })
+        navigate(`/search/${event.target.categories.value}`, { state: data })
     }
     return (
 
