@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Blog = ({ data }) => {
 
@@ -13,7 +14,7 @@ const Blog = ({ data }) => {
                 <h2 className="card-title">{title}</h2>
                 <p className='text-justify'>{description.slice(0, 250) + '...'}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Details</button>
+                    <Link to="/details"><button className="btn btn-primary">Details</button></Link>
                 </div>
             </div>
         </div>
