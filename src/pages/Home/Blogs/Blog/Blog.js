@@ -19,7 +19,7 @@ const Blog = ({ data }) => {
                 <h2 className="card-title">{title}</h2>
                 <p className='text-justify'>{description.slice(0, 250) + '...'}</p>
                 <div className="card-actions justify-end">
-                    <button onClick={handleDetail} className="btn btn-primary">Details</button>
+                    <button onClick={handleDetail} className="btn bg-violet-500">Details</button>
                 </div>
             </div>
         </div>

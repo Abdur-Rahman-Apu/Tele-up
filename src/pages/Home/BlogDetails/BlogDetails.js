@@ -72,7 +72,7 @@ const BlogDetails = () => {
             </div>
 
             <div>
-                <h3>Read Authors articles more</h3>
+                <h3 className='text-3xl font-bold text-sky-500 my-12 text-center'>Recommended for you</h3>
 
                 <div>
                     {
