@@ -13,7 +13,6 @@ const Blogs = () => {
         fetch('data/categories.json')
             .then(res => res.json())
             .then(data => {
-
                 setData(data)
             })
     }, [])
@@ -33,6 +32,8 @@ const Blogs = () => {
             .then(data => setAllData(data))
     }, [])
 
+
+    // view all blogs
     let allBlogs = []
     for (const data of allData) {
         allBlogs = allBlogs.concat(data.blogs)
@@ -42,7 +43,6 @@ const Blogs = () => {
 
     // handle Click 
     const handleNav = (e, category_name) => {
-
 
         fetch('data/data.json')
             .then(res => res.json())
@@ -68,14 +68,50 @@ const Blogs = () => {
             setBlogs(items.blogs);
         }
 
-
-
     }
+
+    let showBlogs = []
 
     if (blogs.length > 0) {
         allBlogs = []
+        showBlogs = blogs
+    } else {
+        showBlogs = allBlogs
     }
     console.log(allBlogs);
+    console.log("showBlogs", showBlogs);
+
+
+    // load more btn 
+
+    const [count, setCount] = useState(6)
+
+    let copy = []
+    copy = showBlogs;
+
+    const [show, setShow] = useState([])
+
+    if (copy.length > 6 && count <= 6) {
+
+
+        showBlogs = copy.slice(0, count)
+        console.log("inside copy", showBlogs);
+        setShow(showBlogs)
+        setCount(count + 6)
+    }
+
+
+    const loadBtn = () => {
+        console.log(count <= copy.length);
+        if (count <= copy.length) {
+            console.log("inside load count", count);
+            showBlogs = copy.slice(0, count)
+            setCount(count + 6)
+            console.log("inside load", showBlogs);
+            setShow(showBlogs)
+        }
+    }
+
 
     return (
         <div className='mx-4'>
@@ -87,8 +123,14 @@ const Blogs = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center'>
                 {
-                    blogs.length > 0 ? blogs.map((item, idx) => <Blog key={idx} data={item}></Blog>)
-                        : allBlogs?.map((item, idx) => <Blog key={idx} data={item}></Blog>)
+                    show.map((item, idx) => <Blog key={idx} data={item}></Blog>)
+
+                }
+            </div>
+
+            <div className='text-center my-10'>
+                {
+                    copy.length > 6 && count <= copy.length ? <button onClick={loadBtn} className='btn'>Load More</button> : <></>
                 }
             </div>
         </div>

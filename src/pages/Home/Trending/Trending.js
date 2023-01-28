@@ -46,23 +46,20 @@ const Trending = () => {
     return (
         <div className='mx-10 my-10'>
             <h1 className='font-bold my-6 text-xl'>Trending</h1>
-            <Carousel className='h-[520px]'
+            <Carousel className='h-[550px]'
                 swipeable={true}
                 draggable={true}
                 showDots={true}
                 responsive={responsive}
-                ssr={true} // means to render carousel on server-side.
+                ssr={true}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={2000}
-                // keyBoardControl={true}
                 customTransition="all 1s ease-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
-                // deviceType={this.props?.deviceType}
                 dotListClass="custom-dot-list-style"
-            // itemClass="carousel-item-padding-40-px"
             >
                 {
                     blog.map(item => <TrendingCard key={item.id} data={item}></TrendingCard>)
