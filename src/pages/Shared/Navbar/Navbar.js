@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const menus = <>
     <li><Link to="/">Home</Link></li>
-    <li><Link>Pricing</Link></li>
+    <li><Link to="/pricing">Pricing</Link></li>
   </>
   return (
     <div>
