@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name":"Geeta S. Iyengar",
+        "quote":"“Knowledge has a beginning but no end.”",
+        "img":"https://i.ibb.co/dWvfLkG/download-1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" L. Frank Baum",
+        "quote":"“No thief, however skillful, can rob one of knowledge, and that is why knowledge is the best and safest treasure to acquire.”",
+        "img":"https://i.ibb.co/YbSGxmp/images.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Alan Moore",
+        "quote":"“Knowledge, like air, is vital to life. Like air, no one should be denied it.” ",
+        "img":"https://i.ibb.co/j8m6KQ6/alan-moore-signs-copies-of-his-book-fashion-beast-at-waterstones-piccadilly-E3-A45-K.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Thomas H. Huxley",
+        "quote":"“Every great advance in natural knowledge has involved the absolute rejection of authority.”",
+        "img":"https://i.ibb.co/tK944Ss/ill-huxley-front.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Arthur C. Aufderheide",
+        "quote":"“All knowledge is connected to all other knowledge. The fun is in making the connections.”",
+        "img":"https://i.ibb.co/7gPvLqN/arthur-c-aufderheide-obituary.jpg"
+    }
+]
