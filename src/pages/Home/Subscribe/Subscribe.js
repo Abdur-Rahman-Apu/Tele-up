@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Subscribe = () => {
     return (
-        <div class=" mx-10 my-20 text-center p-4 my-8 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700" aria-label="Subscribe to the Flowbite newsletter">
+        <div class=" mx-10 my-20 text-center p-4 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
             <h3 class="mb-3 text-3xl font-bold text-gray-900 dark:text-white">Get more updates...</h3>
             <p class="mb-5 text-sm font-medium text-gray-500 dark:text-gray-300">Do you want to get notified when a new blog is added to Tele-Up? Sign up for our newsletter and you'll be among the first to find out about new blogs.</p>
 
@@ -12,7 +12,7 @@ const Subscribe = () => {
 
                     <div class="seva-fields formkit-fields flex items-center mb-3 w-full max-w-md">
                         <div class="formkit-field relative w-full mr-3">
-                            <label for="member_email" class="hidden block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+
                             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                                 <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                             </div>
