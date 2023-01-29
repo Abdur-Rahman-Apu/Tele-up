@@ -1,0 +1,5 @@
+.navbar .navbar-start .menu .active,
+.navbar-center .menu .active {
+    background-color: #0A72BA;
+    color: white;
+}

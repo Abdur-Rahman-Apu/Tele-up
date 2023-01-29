@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../../../assets/Logo/T-logo.png"
+import { Link, NavLink } from "react-router-dom";
+import Logo from "../../../assets/Logo/T-logo.png";
+import './Navbar.css'
 
 const Navbar = () => {
 
 
   const menus = <>
-    <li><Link to="/">Home</Link></li>
-    <li><Link to="/pricing">Pricing</Link></li>
+    <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
+    <li><NavLink to="/pricing" activeClassName="active">Pricing</NavLink></li>
   </>
   return (
     <div>
