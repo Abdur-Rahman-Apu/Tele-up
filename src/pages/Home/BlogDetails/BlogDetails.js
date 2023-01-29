@@ -40,14 +40,14 @@ const BlogDetails = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                     <div className="avatar mr-6">
-                        <div className="w-24 rounded-full">
+                        <div className="w-10 lg:w-16 rounded-full">
                             <img className='object-top' src={author_info.author_img} alt="img" />
                         </div>
                     </div>
 
                     <div>
-                        <p className='font-bold text-lg'>{author_info.author_name}</p>
-                        <p>{blog_info.published_date}</p>
+                        <p className='font-bold text-base lg:text-lg'>{author_info.author_name}</p>
+                        <p className='text-base'>{blog_info.published_date}</p>
                     </div>
                 </div>
                 <div className='flex justify-between w-[150px]'>
@@ -63,8 +63,8 @@ const BlogDetails = () => {
 
             <div className='blog-info'>
                 <img className='w-2/3 mx-auto my-10 rounded-md object-scale-down' src={blog_info.img} alt="img" />
-                <p className='font-bold text-3xl my-6'>{blog_info.title}</p>
-                <p className='text-justify first-letter:text-2xl first-letter:text-[#0A72BA]'>{blog_info.description}</p>
+                <p className='font-bold text-2xl text-justify lg:text-3xl my-6'>{blog_info.title}</p>
+                <p className='text-justify text-base first-letter:text-2xl first-letter:text-[#0A72BA]'>{blog_info.description}</p>
             </div>
 
             <div className="divider my-10">

@@ -22,7 +22,13 @@ const Navbar = () => {
               {
                 menus
               }
+
+              <li className="lg:hidden"><Link className='mr-3 fw-light'>Login</Link></li>
+              <li className="lg:hidden"><Link className="btn btn-outline border-[#0A72BA] rounded-3xl hover:bg-[#0A72BA] hover:border-[#0A72BA]">Sign Up</Link></li>
+
             </ul>
+
+
           </div>
           <Link className="btn btn-ghost normal-case text-xl font-bold"> <img className='img-fluid h-14' src={Logo} alt="" /> <span className='text-[#0A72BA]'>Tele-</span>Up</Link>
         </div>
@@ -33,7 +39,7 @@ const Navbar = () => {
             }
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden lg:flex">
           <Link className='mr-3 fw-light'>Login</Link>
           <Link className="btn btn-outline border-[#0A72BA] rounded-3xl hover:bg-[#0A72BA] hover:border-[#0A72BA]">Sign Up</Link>
         </div>

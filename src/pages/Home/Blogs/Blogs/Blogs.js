@@ -125,7 +125,7 @@ const Blogs = () => {
 
     return (
         <div className='mx-4'>
-            <div className='mt-24 mb-4 flex justify-center'>
+            <div className='mt-24 mb-4 flex flex-col lg:flex-row lg:justify-center'>
                 {
                     data.map(item => <BlogTab key={item.id} data={item} handleNav={handleNav}></BlogTab>)
                 }
