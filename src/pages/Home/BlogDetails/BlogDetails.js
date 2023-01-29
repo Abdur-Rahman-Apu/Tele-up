@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBirthdayCake, faBookmark, faCircle, faCopy, faFunnelDollar, faTimeline } from '@fortawesome/free-solid-svg-icons'
+import { faBookmark, faCopy, faTimeline } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import AuthorBlogs from '../AuthorBlogs/AuthorBlogs';
 

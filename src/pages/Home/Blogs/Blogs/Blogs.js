@@ -52,6 +52,7 @@ const Blogs = () => {
 
         let items;
 
+
         // condition to find category wise data 
         if (category_name === 'View All') {
             for (const data of allData) {

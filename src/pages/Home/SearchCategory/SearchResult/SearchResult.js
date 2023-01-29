@@ -24,7 +24,7 @@ const SearchResult = () => {
         <div>
             <h1 className='text-xl text-center font-bold mt-10 uppercase text-[#0A72BA]'>{category.categoryName}</h1>
 
-            <div className='mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2'>
                 {
                     blogs.map((blog, idx) => <Blog key={idx} data={blog}></Blog>)
                 }
