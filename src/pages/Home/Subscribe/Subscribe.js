@@ -20,7 +20,7 @@ const Subscribe = () => {
                         </div>
                         <button data-element="submit" class="formkit-submit formkit-submit">
 
-                            <span class="cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</span>
+                            <span class="cursor-pointer text-white bg-[#0A72BA] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</span>
                         </button>
                     </div>
                 </div>

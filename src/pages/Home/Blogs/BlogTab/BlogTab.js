@@ -6,7 +6,7 @@ const BlogTab = ({ data, handleNav }) => {
 
     return (
 
-        <button onClick={(e) => handleNav(e, category_name)} className="tab tab-bordered tab-active hover:bg-violet-500 hover:text-white"><p className='text-base font-bold'>{category_name}</p></button>
+        <button onClick={(e) => handleNav(e, category_name)} className="tab tab-bordered tab-active hover:bg-[#0A72BA] hover:text-white"><p className='text-base font-bold'>{category_name}</p></button>
 
     );
 };

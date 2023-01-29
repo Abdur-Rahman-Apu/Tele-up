@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer items-center p-4 bg-black text-neutral-content">
                 <div className="items-center grid-flow-col">
-                    <Link className="btn btn-ghost normal-case text-xl font-bold"> <img className='img-fluid h-10' src={Logo} alt="" /> <span className='text-[#8c94f7]'>Tele-</span>Up</Link>
+                    <Link className="btn btn-ghost normal-case text-xl font-bold"> <img className='img-fluid h-10' src={Logo} alt="" /> <span className='text-[#0A72BA]'>Tele-</span>Up</Link>
                     <p>Copyright © 2023 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

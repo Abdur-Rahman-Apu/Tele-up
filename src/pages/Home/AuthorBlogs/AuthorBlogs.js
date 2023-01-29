@@ -25,13 +25,13 @@ const AuthorBlogs = ({ blog }) => {
                         </div>
                     </div>
                     <div>
-                        <p className='text-2xl font-bold text-violet-500'>{author_info.author_name}</p>
-                        <p>{author_info.designation}</p>
-                        <p> <span className='font-bold text-violet-500'>Followers:</span> {author_info.followers}</p>
+                        <p className='text-xl font-bold text-[#0A72BA] '>{author_info.author_name}</p>
+                        <p className='capitalize'>{author_info.designation}</p>
+                        <p> <span className='font-bold text-[#0A72BA]'>Followers:</span> {author_info.followers}</p>
                     </div>
                 </div>
                 <div className="card-actions justify-end">
-                    <button onClick={handleDetail} className="btn btn-primary">Details</button>
+                    <button onClick={handleDetail} className="btn bg-[#0A72BA]">Details</button>
                 </div>
             </div>
         </div>

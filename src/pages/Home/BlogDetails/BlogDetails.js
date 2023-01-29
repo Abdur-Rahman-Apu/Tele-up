@@ -64,7 +64,7 @@ const BlogDetails = () => {
             <div className='blog-info'>
                 <img className='w-2/3 mx-auto my-10 rounded-md object-scale-down' src={blog_info.img} alt="img" />
                 <p className='font-bold text-3xl my-6'>{blog_info.title}</p>
-                <p className='text-justify first-letter:text-2xl first-letter:text-violet-500'>{blog_info.description}</p>
+                <p className='text-justify first-letter:text-2xl first-letter:text-[#0A72BA]'>{blog_info.description}</p>
             </div>
 
             <div className="divider my-10">

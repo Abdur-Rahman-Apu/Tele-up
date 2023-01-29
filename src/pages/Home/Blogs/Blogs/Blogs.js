@@ -140,7 +140,7 @@ const Blogs = () => {
 
             <div className='text-center my-10'>
                 {
-                    copy.length > 6 && count <= copy.length ? <button onClick={loadBtn} className='btn bg-violet-500'>Load More</button> : <></>
+                    copy.length > 6 && count <= copy.length ? <button onClick={loadBtn} className='btn bg-[#0A72BA]'>Load More</button> : <></>
                 }
             </div>
         </div>

@@ -16,7 +16,7 @@ const TrendingCard = ({ data }) => {
                 <h2 className="card-title">{title}</h2>
                 <p>{description.slice(0, 50) + '...'}</p>
                 <div className="card-actions justify-end">
-                    <button onClick={handleData} className="btn bg-violet-500">Details</button>
+                    <button onClick={handleData} className="btn bg-[#0A72BA]">Details</button>
                 </div>
             </div>
         </div>
